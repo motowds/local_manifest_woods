@@ -6,13 +6,13 @@ _LineageOS 15.1 for Moto E4 Device_
 
 Create directories
 ```
-	$ mkdir lineage-15.1
-	$ cd lineage-15.1
+	$ mkdir los15.1
+	$ cd los15.1
 ```
 the local manifests:
 ```
 	$ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
-	$ git clone https://github.com/iykequame/local_manifest_woods -b lineage-15.1 .repo/local_manifests
+	$ git clone https://github.com/motowds/local_manifest_woods -b lineage-15.1 .repo/local_manifests
 ```
 Then sync up with this command:
 ```
